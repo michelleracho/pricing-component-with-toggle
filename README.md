@@ -3,7 +3,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![Design preview for the File Transfer pricing component coding challenge](./design/desktop-preview.jpg)
+![Design preview for the File Transfer pricing component coding challenge](https://github.com/michelleracho/pricing-component-with-toggle/blob/main/src/starter%20guide/design/desktop-preview.jpg)
 
 ## Welcome! 👋
 
