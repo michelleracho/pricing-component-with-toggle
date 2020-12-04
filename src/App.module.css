@@ -1,0 +1,15 @@
+:global(*),
+:global(*::before),
+:global(*:after) {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  place-content: center;
+}
