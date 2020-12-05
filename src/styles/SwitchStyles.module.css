@@ -16,7 +16,7 @@
   width: 6.5rem;
   height: 3.2rem;
   border-radius: 3rem;
-  background-image: var(--gradient);
+  background-image: linear-gradient(to right, var(--gradient));
   background-size: 100%;
   background-position: center;
   transition: background-size 0.2s ease, background-position 0.2s ease;
@@ -36,7 +36,7 @@
   height: calc(100% - 0.5rem);
   width: calc(50% - 0.25rem);
   border-radius: 50%;
-  left: 0.25rem;
+  right: 0.25rem;
   top: 0;
   transform: translate(0, 0.25rem);
   background-color: var(--color-very-light-gray);
@@ -44,5 +44,5 @@
 }
 
 .Switch__container input:checked ~ .Switch__toggler {
-  transform: translate(100%, 0.25rem);
+  transform: translate(-100%, 0.25rem);
 }

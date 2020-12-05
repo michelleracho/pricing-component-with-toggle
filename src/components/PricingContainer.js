@@ -5,7 +5,7 @@ import Switch from './Switch';
 import styles from '../styles/PricingContainerStyles.module.css';
 
 const PricingContainer = () => {
-  const [priceTier, setPriceTier] = useState('Annual');
+  const [priceTier, setPriceTier] = useState('Monthly');
 
   const toggleSwitch = () => {
     priceTier === 'Annual' ? setPriceTier('Monthly') : setPriceTier('Annual');

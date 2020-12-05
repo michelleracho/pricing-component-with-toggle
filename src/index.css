@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
 :root {
-  --gradient: linear-gradient(to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+  --gradient: hsl(236, 72%, 79%), hsl(237, 63%, 64%);
 
+  --color-light-purple: hsl(236, 72%, 79%);
   --color-purple: hsl(237, 63%, 64%);
 
   --color-very-light-gray: hsl(240, 78%, 98%);

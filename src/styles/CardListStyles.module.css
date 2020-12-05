@@ -7,12 +7,19 @@
 
 .CardList__item:nth-of-type(2n) > * {
   color: var(--color-very-light-gray);
-  background: var(--gradient);
+  background: linear-gradient(to bottom, var(--gradient));
   transform: scale(1.1);
 }
 
 .CardList__item:nth-of-type(2n) > * > h2 {
   color: #fff;
+}
+
+.CardList__item:nth-of-type(2n) > * > ul > li {
+  border-top: 1px solid var(--color-very-light-gray);
+}
+.CardList__item:nth-of-type(2n) > * > ul > li:last-child {
+  border-bottom: 1px solid var(--color-very-light-gray);
 }
 
 .CardList__item:nth-of-type(2n) > * > button {

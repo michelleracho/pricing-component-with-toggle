@@ -11,8 +11,15 @@ const Switch = ({ tier, toggleSwitch }) => {
     <div className={styles.Switch}>
       <h4>Annually</h4>
 
-      <label className={styles.Switch__container}>
-        <input type="checkbox" onChange={() => handleChange()} value={tier} />
+      <label
+        className={styles.Switch__container}
+        onChange={() => handleChange()}
+      >
+        <input
+          type="checkbox"
+          value={tier}
+          className={styles.Switch__toggler}
+        />
         <div className={styles.Switch__toggler}></div>
       </label>
 

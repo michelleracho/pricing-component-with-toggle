@@ -5,18 +5,18 @@
   color: var(--color-very-light-gray);
   text-transform: uppercase;
   letter-spacing: 1px;
-  background: var(--gradient);
+  background: linear-gradient(to right, var(--gradient));
   outline: none;
   border: 1.5px solid var(--color-very-light-gray);
   border-radius: 0.5rem;
   padding: 1rem;
   width: 100%;
   margin-top: 3rem;
+  transition: all 0.3s ease;
 }
 
 .Button:hover {
   color: var(--color-purple);
-  text-transform: uppercase;
   background: #fff;
   border: 2px solid var(--color-very-light-gray);
   border: 1.5px solid currentColor;
