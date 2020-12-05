@@ -3,12 +3,10 @@ import CardList from './CardList';
 import Switch from './Switch';
 
 const PricingContainer = () => {
-  const [priceTier, setPriceTier] = useState('Annually');
+  const [priceTier, setPriceTier] = useState('Annual');
 
   const toggleSwitch = () => {
-    priceTier === 'Annually'
-      ? setPriceTier('Monthly')
-      : setPriceTier('Annually');
+    priceTier === 'Annual' ? setPriceTier('Monthly') : setPriceTier('Annual');
   };
 
   return (
@@ -16,7 +14,7 @@ const PricingContainer = () => {
       <h1>Our Pricing</h1>
 
       <Switch tier={priceTier} toggleSwitch={toggleSwitch} />
-      <CardList />
+      <CardList tier={priceTier} />
     </section>
   );
 };
