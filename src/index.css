@@ -3,6 +3,8 @@
 :root {
   --gradient: linear-gradient(to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
 
+  --color-purple: hsl(237, 63%, 64%);
+
   --color-very-light-gray: hsl(240, 78%, 98%);
   --color-light-gray: hsl(234, 14%, 74%);
   --color-gray: hsl(233, 13%, 49%);

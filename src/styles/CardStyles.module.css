@@ -2,7 +2,8 @@
   color: var(--color-gray);
   background-color: #fff;
   border-radius: 1rem;
-  padding: 3rem;
+  padding: 4rem;
+  width: 35rem;
 }
 
 .Card__type {
@@ -15,7 +16,7 @@
 }
 
 .Card__list {
-  width: 27.2rem;
+  /* width: 25rem; */
 }
 
 .Card__item {

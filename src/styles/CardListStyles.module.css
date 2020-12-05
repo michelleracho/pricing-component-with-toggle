@@ -3,7 +3,7 @@
 }
 
 .CardList__item {
-  margin: 1rem;
+  /* margin: 1rem; */
 }
 
 .CardList__item:nth-of-type(2n) > * {
@@ -14,4 +14,14 @@
 
 .CardList__item:nth-of-type(2n) > * > h2 {
   color: #fff;
+}
+
+.CardList__item:nth-of-type(2n) > * > button {
+  color: var(--color-purple);
+  background: #fff;
+}
+
+.CardList__item:nth-of-type(2n) > * > button:hover {
+  color: #fff;
+  background: var(--gradient);
 }

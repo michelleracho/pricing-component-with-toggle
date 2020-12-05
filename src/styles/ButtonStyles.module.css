@@ -1,0 +1,24 @@
+.Button {
+  cursor: pointer;
+  font-size: 1rem;
+  font-family: inherit;
+  color: var(--color-very-light-gray);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background: var(--gradient);
+  outline: none;
+  border: 1.5px solid var(--color-very-light-gray);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.Button:hover {
+  /* color: inherit; */
+  color: var(--color-purple);
+  text-transform: uppercase;
+  background: #fff;
+  border: 2px solid var(--color-very-light-gray);
+  border: 1.5px solid currentColor;
+}
