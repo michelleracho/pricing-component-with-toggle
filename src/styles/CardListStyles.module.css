@@ -1,0 +1,11 @@
+.CardList {
+  display: flex;
+}
+
+.CardList__item {
+  margin: 1rem;
+}
+
+/* .CardList__item:nth-of-type(2n) {
+  background-color: red;
+} */

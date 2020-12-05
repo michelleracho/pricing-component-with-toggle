@@ -1,0 +1,28 @@
+.Card {
+  color: var(--color-gray);
+  background-color: #fff;
+  border-radius: 1rem;
+  padding: 3rem;
+}
+
+.Card__type {
+}
+
+.Card__price {
+  font-size: 5.2rem;
+  color: var(--color-dark-gray);
+  padding: 2.5rem;
+}
+
+.Card__list {
+  width: 28.6rem;
+}
+
+.Card__item {
+  padding: 1.5rem;
+  border-top: 1.95px solid var(--color-very-light-gray);
+}
+
+.Card__item:last-child {
+  border-bottom: 1.95px solid var(--color-very-light-gray);
+}

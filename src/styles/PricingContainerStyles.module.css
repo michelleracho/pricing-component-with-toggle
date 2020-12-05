@@ -1,0 +1,10 @@
+.PricingContainer {
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+}
+
+.PricingContainer h1 {
+  font-size: 2.3rem;
+  color: var(--color-gray);
+}

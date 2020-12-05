@@ -4,4 +4,7 @@
   position: relative;
   display: flex;
   place-content: center;
+  background: url(/src/images/bg-top.svg) top right,
+    url(/src/images/bg-bottom.svg) bottom left, var(--color-very-light-gray);
+  background-repeat: no-repeat;
 }

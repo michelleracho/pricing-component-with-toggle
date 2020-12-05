@@ -1,6 +1,12 @@
 .Switch {
   display: flex;
   align-items: center;
+  margin: 6.5rem auto 4.8rem;
+}
+
+.Switch h4 {
+  font-size: 1.1rem;
+  color: var(--color-light-gray);
 }
 
 .Switch__container {
