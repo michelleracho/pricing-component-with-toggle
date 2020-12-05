@@ -1,0 +1,42 @@
+.Switch {
+  display: flex;
+  align-items: center;
+}
+
+.Switch__container {
+  cursor: pointer;
+  margin: auto 2.4rem;
+  position: relative;
+  width: 6.5rem;
+  height: 3.2rem;
+  border-radius: 3rem;
+  background-image: var(--gradient);
+  background-size: 100%;
+  background-position: center;
+  transition: background-size 0.2s ease, background-position 0.2s ease;
+}
+
+.Switch__container:hover {
+  background-size: 200% 100%;
+  background-position: left;
+}
+
+.Switch__container input {
+  display: none;
+}
+
+.Switch__toggler {
+  position: absolute;
+  height: calc(100% - 0.5rem);
+  width: calc(50% - 0.25rem);
+  border-radius: 50%;
+  left: 0.25rem;
+  top: 0;
+  transform: translate(0, 0.25rem);
+  background-color: var(--color-very-light-gray);
+  transition: transform 0.2s ease;
+}
+
+.Switch__container input:checked ~ .Switch__toggler {
+  transform: translate(100%, 0.25rem);
+}

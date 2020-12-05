@@ -1,6 +1,7 @@
-import styles from './App.module.css';
 import Footer from './components/Footer';
 import PricingContainer from './components/PricingContainer';
+
+import styles from './App.module.css';
 
 function App() {
   return (

@@ -1,13 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
 import CardList from './CardList';
-import Toggler from './Toggler';
+import Switch from './Switch';
 
 const PricingContainer = () => {
+  const [priceTier, setPriceTier] = useState('Annually');
+
+  const toggleSwitch = () => {
+    priceTier === 'Annually'
+      ? setPriceTier('Monthly')
+      : setPriceTier('Annually');
+  };
+
   return (
     <section>
       <h1>Our Pricing</h1>
 
-      <Toggler />
+      <Switch tier={priceTier} toggleSwitch={toggleSwitch} />
       <CardList />
     </section>
   );
