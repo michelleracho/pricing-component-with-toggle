@@ -6,6 +6,12 @@
   margin: 1rem;
 }
 
-/* .CardList__item:nth-of-type(2n) {
-  background-color: red;
-} */
+.CardList__item:nth-of-type(2n) > * {
+  color: var(--color-very-light-gray);
+  background: var(--gradient);
+  transform: scale(1.1);
+}
+
+.CardList__item:nth-of-type(2n) > * > h2 {
+  color: #fff;
+}

@@ -15,14 +15,14 @@
 }
 
 .Card__list {
-  width: 28.6rem;
+  width: 27.2rem;
 }
 
 .Card__item {
   padding: 1.5rem;
-  border-top: 1.95px solid var(--color-very-light-gray);
+  border-top: 1px solid var(--color-very-light-gray);
 }
 
 .Card__item:last-child {
-  border-bottom: 1.95px solid var(--color-very-light-gray);
+  border-bottom: 1px solid var(--color-very-light-gray);
 }

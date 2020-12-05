@@ -1,7 +1,7 @@
 .Switch {
   display: flex;
   align-items: center;
-  margin: 6.5rem auto 4.8rem;
+  margin: 5rem auto;
 }
 
 .Switch h4 {
