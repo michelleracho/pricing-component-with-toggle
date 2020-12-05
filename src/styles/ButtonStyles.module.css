@@ -15,7 +15,6 @@
 }
 
 .Button:hover {
-  /* color: inherit; */
   color: var(--color-purple);
   text-transform: uppercase;
   background: #fff;

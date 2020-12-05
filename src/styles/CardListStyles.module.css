@@ -3,7 +3,6 @@
 }
 
 .CardList__item {
-  /* margin: 1rem; */
 }
 
 .CardList__item:nth-of-type(2n) > * {
@@ -24,4 +23,19 @@
 .CardList__item:nth-of-type(2n) > * > button:hover {
   color: #fff;
   background: var(--gradient);
+}
+
+@media screen and (max-width: 992px) {
+  .CardList {
+    flex-direction: column;
+  }
+
+  .CardList__item > * {
+    margin: 0 auto;
+  }
+
+  .CardList__item:nth-of-type(2n) > * {
+    transform: unset;
+    margin: 3.2rem auto;
+  }
 }
