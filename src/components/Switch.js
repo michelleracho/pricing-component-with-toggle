@@ -20,7 +20,7 @@ const Switch = ({ tier, toggleSwitch }) => {
           value={tier}
           className={styles.Switch__toggler}
         />
-        <div className={styles.Switch__toggler}></div>
+        <span className={styles.Switch__toggler}></span>
       </label>
 
       <h4>Monthly</h4>
